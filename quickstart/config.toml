@@ -1,0 +1,10 @@
+baseURL = "http://hugo-duke.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = 'My New Hugo Site'
+theme = "ananke"
+
+
+[[deployment.targets]]
+
+name = "hugo-duke"
+URL = "s3://hugo-duke/?region=us-east-1"
